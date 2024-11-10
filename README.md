@@ -32,6 +32,7 @@ Falls das Skript auf einem Server läuft, der keine automatische Installation vo
 Klonen Sie das Repository oder laden Sie das Skript herunter:
 
 ```git clone <repository-url>```
+
 ```cd <repository-folder>```
 
 Fügen Sie das Skript in eine Datei namens masterserver.py ein (falls Sie den Code manuell kopieren).
