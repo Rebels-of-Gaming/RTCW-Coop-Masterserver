@@ -42,7 +42,7 @@ Falls eine Firewall aktiv ist, müssen die benötigten Ports freigegeben werden.
 Dies sind standardmäßig 27950 (UDP und TCP) für den Master-Server und 80 (TCP) für den HTTP-Server.
 
 
-# Erlaubt eingehenden Verkehr auf Port 27950 (UDP und TCP) und Port 80 (TCP)
+Erlaubt eingehenden Verkehr auf Port 27950 (UDP und TCP) und Port 80 (TCP)
 
 ```sudo ufw allow 27950/tcp```
 ```sudo ufw allow 27950/udp```
