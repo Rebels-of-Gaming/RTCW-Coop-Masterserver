@@ -46,7 +46,9 @@ Dies sind standardmäßig 27950 (UDP und TCP) für den Master-Server und 80 (TCP
 Erlaubt eingehenden Verkehr auf Port 27950 (UDP und TCP) und Port 80 (TCP)
 
 ```sudo ufw allow 27950/tcp```
+
 ```sudo ufw allow 27950/udp```
+
 ```sudo ufw allow 80/tcp```
 
 ## 5. Master-Server starten
@@ -58,6 +60,7 @@ Starten Sie den Master-Server:
 Die Konsole zeigt dann eine Ausgabe wie:
 
 ```Master-Server wird auf öffentlicher IP <Ihre IP> und Port 27950 gestartet```
+
 ```HTTP-Server läuft auf Port 80```
 
 Der HTTP-Server stellt eine HTML-Seite zur Verfügung, die eine Übersicht aller registrierten Server bietet. Sie können diese Seite im Browser über die IP-Adresse Ihres Servers aufrufen (z. B. http://<Ihre IP>).
@@ -69,11 +72,21 @@ Server beenden
 Um den Server zu stoppen, drücken Sie CTRL+C in der Konsole. Das Skript ist so konfiguriert, dass es alle laufenden Tasks ordnungsgemäß beendet.
 
 ## Zusammenfassung der Schritte
-Python 3 installieren: ```sudo apt install -y python3 python3-pip```
-Python-Pakete installieren: ```pip3 install aiohttp requests```
-Skript speichern: ```nano masterserver.py```
-Firewall konfigurieren (optional): ```sudo ufw allow 27950/tcp && sudo ufw allow 27950/udp && sudo ufw allow 80/tcp```
-Server starten: ```python3 masterserver.py```
+Python 3 installieren: 
+```sudo apt install -y python3 python3-pip```
+
+Python-Pakete installieren: 
+```pip3 install aiohttp requests```
+
+Skript speichern: 
+```nano masterserver.py```
+
+Firewall konfigurieren (optional): 
+```sudo ufw allow 27950/tcp && sudo ufw allow 27950/udp && sudo ufw allow 80/tcp```
+
+Server starten: 
+```python3 masterserver.py```
+
 Testen: Überprüfen Sie, ob der Master-Server im Spiel und im Browser angezeigt wird.
 
 
