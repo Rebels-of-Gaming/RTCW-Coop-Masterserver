@@ -25,6 +25,7 @@ Die folgenden Python-Module werden benötigt: aiohttp und requests.
 
 # Installieren der Python-Module aiohttp und requests
 ```pip3 install aiohttp requests```
+
 Falls das Skript auf einem Server läuft, der keine automatische Installation von Paketen zulässt, können Sie diese Installationsanweisungen direkt im Skript integrieren (siehe Code im Repository).
 
 ## 3. Skript herunterladen und konfigurieren
