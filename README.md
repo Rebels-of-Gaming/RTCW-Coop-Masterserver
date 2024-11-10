@@ -32,7 +32,7 @@ Klonen Sie das Repository oder laden Sie das Skript herunter:
 
 ```git clone <repository-url>```
 ```cd <repository-folder>```
-# Fügen Sie das Skript in eine Datei namens masterserver.py ein (falls Sie den Code manuell kopieren).
+Fügen Sie das Skript in eine Datei namens masterserver.py ein (falls Sie den Code manuell kopieren).
 
 ## 4. Firewall konfigurieren (optional)
 Falls eine Firewall aktiv ist, müssen die benötigten Ports freigegeben werden. Dies sind standardmäßig 27950 (UDP und TCP) für den Master-Server und 80 (TCP) für den HTTP-Server.
