@@ -33,20 +33,27 @@ Klonen Sie das Repository oder laden Sie das Skript herunter:
 
 ```git clone <repository-url>```
 ```cd <repository-folder>```
+
 Fügen Sie das Skript in eine Datei namens masterserver.py ein (falls Sie den Code manuell kopieren).
 
 ## 4. Firewall konfigurieren (optional)
-Falls eine Firewall aktiv ist, müssen die benötigten Ports freigegeben werden. Dies sind standardmäßig 27950 (UDP und TCP) für den Master-Server und 80 (TCP) für den HTTP-Server.
+
+Falls eine Firewall aktiv ist, müssen die benötigten Ports freigegeben werden. 
+Dies sind standardmäßig 27950 (UDP und TCP) für den Master-Server und 80 (TCP) für den HTTP-Server.
 
 
 # Erlaubt eingehenden Verkehr auf Port 27950 (UDP und TCP) und Port 80 (TCP)
+
 ```sudo ufw allow 27950/tcp```
 ```sudo ufw allow 27950/udp```
 ```sudo ufw allow 80/tcp```
+
 ## 5. Master-Server starten
+
 Starten Sie den Master-Server:
 
 ```python3 masterserver.py```
+
 Die Konsole zeigt dann eine Ausgabe wie:
 
 ```Master-Server wird auf öffentlicher IP <Ihre IP> und Port 27950 gestartet```
