@@ -14,7 +14,7 @@ Dieser Master-Server ermöglicht es, für das Spiel *Return to Castle Wolfenstei
 Falls Python 3 und Pip noch nicht installiert sind:
 
 # Aktualisieren Sie die Paketliste
-```bash sudo apt update`
+```bash sudo apt update
 
 # Installieren Sie Python 3 und Pip (Python-Paketmanager)
 sudo apt install -y python3 python3-pip
